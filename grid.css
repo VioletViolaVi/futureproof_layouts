@@ -3,7 +3,6 @@ div {
   height: 100%;
   margin: 1px;
   border: thin solid black;
-  /* background-color: aquamarine; */
 }
 
 .container {
@@ -14,10 +13,7 @@ div {
     '. . .'
     '. . second'
     '. third third';
-
-  /* grid-template-columns: 300px 10px 10px;
-  grid-template-rows: 20px 30% 1fr;
-  background-color: black; */
+  grid-template-columns: 30% 40% 15px;
 }
 
 #dOne {
@@ -30,4 +26,13 @@ div {
 
 #dThree {
   grid-area: third;
+}
+
+.new-container {
+  display: grid;
+  grid-template-areas: '. first .';
+}
+
+.new-div {
+  grid-area: first;
 }
