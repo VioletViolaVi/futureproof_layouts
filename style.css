@@ -8,16 +8,13 @@ body {
 }
 
 #pTwo {
-  /* width: 50px;
   height: 50px;
   padding-top: 30px;
-  margin: 50px; */
   border: 3px solid black;
   width: 100px;
   margin: auto;
 }
 
-/*
 nav {
   position: absolute;
   right: -0.1px;
@@ -39,7 +36,7 @@ h1 {
   right: 50%;
 }
 
- span {
+span {
   float: left;
 }
 #spanOne {
@@ -57,8 +54,7 @@ a {
 footer {
   position: absolute;
   bottom: 10px;
-} 
-*/
+}
 
 /* 
 NOTES:
