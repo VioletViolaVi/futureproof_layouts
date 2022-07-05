@@ -1,60 +1,8 @@
-* {
-  border: 1px solid salmon;
-}
 
-body {
-  margin: 0;
-  padding: 1em;
-}
 
-#pTwo {
-  height: 50px;
-  padding-top: 30px;
-  border: 3px solid black;
-  width: 100px;
-  margin: auto;
-}
 
-nav {
-  position: absolute;
-  right: -0.1px;
-}
 
-h1 {
-  color: green;
-}
 
-#pTwo {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
-
-#pTwo {
-  position: absolute;
-  top: 50%;
-  right: 50%;
-}
-
-span {
-  float: left;
-}
-#spanOne {
-  float: right;
-}
-
-#spanTwo {
-  float: right;
-}
-
-a {
-  float: left;
-}
-
-footer {
-  position: absolute;
-  bottom: 10px;
-}
 
 /* 
 NOTES:
