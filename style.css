@@ -2,6 +2,22 @@
   border: 1px solid salmon;
 }
 
+body {
+  margin: 0;
+  padding: 1em;
+}
+
+#pTwo {
+  /* width: 50px;
+  height: 50px;
+  padding-top: 30px;
+  margin: 50px; */
+  border: 3px solid black;
+  width: 100px;
+  margin: auto;
+}
+
+/*
 nav {
   position: absolute;
   right: -0.1px;
@@ -11,8 +27,10 @@ h1 {
   color: green;
 }
 
-span {
-  float: left;
+#pTwo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 #pTwo {
@@ -21,6 +39,9 @@ span {
   right: 50%;
 }
 
+ span {
+  float: left;
+}
 #spanOne {
   float: right;
 }
@@ -36,11 +57,19 @@ a {
 footer {
   position: absolute;
   bottom: 10px;
-}
+} 
+*/
 
 /* 
 NOTES:
 - inline: don't let you effect their width or height
 - inline-block: can change width & height, don't mind sharing line
 - block: can change width & height
+
+- static: where element would normally be (where u're meant to be)
+- relative: move around based on where your normal place be (move from where u're meant to be)
+- absolute: don't care where u supposed to be, go where u told (think "NEW!" label/btn from Slurps ;)"
+
+- em: amount of space taken up by a normal letter
+- rem: amount of space taken relative to normal letter
 */
