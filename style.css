@@ -1,0 +1,46 @@
+* {
+  border: 1px solid salmon;
+}
+
+nav {
+  position: absolute;
+  right: -0.1px;
+}
+
+h1 {
+  color: green;
+}
+
+span {
+  float: left;
+}
+
+#pTwo {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+
+#spanOne {
+  float: right;
+}
+
+#spanTwo {
+  float: right;
+}
+
+a {
+  float: left;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+}
+
+/* 
+NOTES:
+- inline: don't let you effect their width or height
+- inline-block: can change width & height, don't mind sharing line
+- block: can change width & height
+*/
